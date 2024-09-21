@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 
 const EditProfile: NextPage = () => {
   return (
-    <div className="mt-16 px-4 space-y-4">
+    <div className="py-10 px-4 space-y-4">
       <div className="flex items-center space-x-3">
         <div className="w-14 h-14 rounded-full bg-slate-500" />
         <label
@@ -33,14 +33,14 @@ const EditProfile: NextPage = () => {
             +82
           </span>
           <input
-            id="phone"
+            id="input"
             type="number"
             className="appearance-none w-full px-3 py-2 border border-gray-300 rounded-md rounded-l-none shadow-sm placeholder-gray-400 focus:outline-none focus:ring-orange-500 focus:border-orange-500"
             required
           />
         </div>
       </div>
-      <button className="mt-5 w-full bg-orange-500 hover:bg-orange-600 text-white py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:outline-none">
+      <button className="mt-5 w-full bg-orange-500 hover:bg-orange-600 text-white py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:outline-none ">
         Update profile
       </button>
     </div>
